@@ -67,7 +67,8 @@ Para instalar todas las dependencias, ejecuta el siguiente comando:
 │
 ├── histórico/  # Carpeta donde se guardan los historiales generados
 ├── README.md
----```
+---
+```
 
 ## Estructura del Proyecto - Módulos
 
