@@ -54,7 +54,7 @@ Para instalar todas las dependencias, ejecuta el siguiente comando:
 
 ## Estructura del proyecto
 
-project/
+```project/
 │
 ├── main.py  # Página principal con navegación
 ├── pages/
@@ -67,8 +67,7 @@ project/
 │
 ├── histórico/  # Carpeta donde se guardan los historiales generados
 ├── README.md
-
----
+---```
 
 ## Estructura del Proyecto - Módulos
 
