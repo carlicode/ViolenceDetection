@@ -51,3 +51,43 @@ Este proyecto utiliza las siguientes dependencias:
 Para instalar todas las dependencias, ejecuta el siguiente comando:
 
 `pip install -r requirements.txt`
+
+## Estructura del proyecto
+
+project/
+│
+├── main.py  # Página principal con navegación
+├── pages/
+│   ├── 1_Realizar_clasificacion_de_audio.py  # Clasificación de audio
+│   ├── 2_Ver_historico.py  # Página "En construcción"
+│
+├── modules/
+│   ├── chroma_query.py  # Funciones relacionadas con ChromaDB
+│   ├── audio_prediction.py  # Funciones relacionadas con el modelo de audio
+│
+├── histórico/  # Carpeta donde se guardan los historiales generados
+├── README.md
+
+---
+
+## Estructura del Proyecto - Módulos
+
+La carpeta `modules/` contiene los módulos principales que soportan las funcionalidades del sistema:
+
+- **chroma_query.py**:
+  - Maneja la integración con ChromaDB.
+  - Proporciona funciones para cargar la base de datos y realizar consultas utilizando embeddings generados por modelos de lenguaje.
+
+- **audio_prediction.py**:
+  - Contiene funciones para el manejo del modelo de audio.
+  - Divide los audios en fragmentos, genera espectrogramas y realiza predicciones utilizando modelos preentrenados.
+
+Estos módulos están diseñados para ser reutilizables y simplificar la lógica dentro de los archivos principales del proyecto.
+
+---
+
+## Licencia
+
+**Universidad Mayor de San Simón, Cochabamba, Bolivia**
+
+El contenido de este proyecto es parte del trabajo de tesis titulado *"Implementación de Modelo de Procesamiento de Lenguaje Natural para Predicción de Violencia mediante Segmentación de Audio Stream"*, desarrollado por **Carla Marcela Florida Roman** bajo la supervisión del **Tutor Eduardo Di Santi Grönros, PhD**.
