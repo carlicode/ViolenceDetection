@@ -1,4 +1,3 @@
-readme_content = """
 # Implementación de Modelo de Procesamiento de Lenguaje Natural para Predicción de Violencia Mediante Segmentación de Audio Stream
 
 ## Descripción del Proyecto
