@@ -16,9 +16,14 @@ labels = ["crying", "glass_breaking", "gun_shot", "people_talking", "screams"]
 
 # Opciones de modelos disponibles
 models = {
-    "Audios originales": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset.h5",
-    "Gaussian Noise con 30 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/audio_classification_model_30.h5",
-    "Gaussian Noise con 40 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/audio_classification_model_40.h5"
+    "Audios originales con 20 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset_20.h5",
+    "Audios originales con 30 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset_30.h5",
+    "Audios originales con 40 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset_40.h5",
+    "Audios originales con 100 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset_100.h5",
+    "Gaussian Noise con 20 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian noise_20.h5",
+    "Gaussian Noise con 30 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian noise_30.h5",
+    "Gaussian Noise con 40 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian noise_40.h5",
+    "Gaussian Noise con 100 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian_noise_100.h5"
 }
 
 # Cargar la base vectorial de ChromaDB
@@ -85,6 +90,11 @@ if uploaded_file:
 
         os.remove(fragment_filename)
 
-    output_path = os.path.join(HISTORIC_DIR, f"{os.path.splitext(uploaded_file.name)[0]}_historico.xlsx")
+    # Aquí se realiza el cambio para que el archivo se guarde con el nombre del dataset y el modelo seleccionado
+    dataset_name = os.path.splitext(uploaded_file.name)[0]  # El nombre base del archivo de audio
+    model_name = model_choice.replace(" ", "_").replace("con", "").lower()  # Formatear el nombre del modelo
+    output_filename = f"{dataset_name}_{model_name}_historico.xlsx"  # Crear el nombre del archivo
+    output_path = os.path.join(HISTORIC_DIR, output_filename)
+    
     pd.DataFrame(historical_data).to_excel(output_path, index=False)
     st.success(f"Histórico guardado en: {output_path}")

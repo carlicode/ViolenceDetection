@@ -73,14 +73,13 @@ def predict_violence_evolution(df, label_weights):
     evolution_score = (
         alpha * avg_recent_violence +
         beta * slope +
-        gamma * high_critical_events
-    )
+        gamma * high_critical_events)/100
 
     # Clasificar evolución
     result = ""
-    if evolution_score > 0.7:
+    if evolution_score > 0.5:
         result = "Es probable que la violencia evolucione."
-    elif 0.4 <= evolution_score <= 0.7:
+    elif 0.2 <= evolution_score <= 0.5:
         result = "La violencia parece mantenerse estable."
     else:
         result = "Es probable que la violencia disminuya."

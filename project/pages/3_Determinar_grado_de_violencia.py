@@ -16,12 +16,12 @@ LABEL_WEIGHTS = {
 }
 
 # Título de la página
-st.title("Determinar Grado de Violencia")
+st.title("Determinación del Grado de Violencia")
 
 # Explicación del cálculo del grado de violencia
 st.write("""
 ### ¿Cómo se calcula el grado de violencia?
-El grado de violencia se calcula considerando las probabilidades de las etiquetas detectadas, la distancia de los embeddings y los pesos asignados a cada etiqueta.
+El grado de violencia se calcula utilizando las probabilidades de las etiquetas detectadas, la distancia entre los embeddings de los fragmentos y los pesos asignados a cada etiqueta. Estos elementos se combinan en la fórmula para generar un valor numérico que representa el grado de violencia en un fragmento de audio o video.
 """)
 
 st.latex(r"""
@@ -36,18 +36,70 @@ st.write("""
 """)
 
 st.write("""
-### Cómo interpretar el desglose del cálculo
-El desglose incluye métricas clave que explican cómo se evalúa la evolución de la violencia:
-- **Promedio Grado de Violencia Reciente**: Promedio del grado de violencia en los últimos 5 fragmentos. Refleja la intensidad promedio de los eventos recientes.
-- **Pendiente de la Tendencia**: Representa la dirección del cambio en el grado de violencia. Un valor positivo indica que la violencia está aumentando, mientras que un valor negativo sugiere que está disminuyendo.
-- **Eventos Críticos Altos**: Número de eventos graves (por ejemplo, disparos o gritos) que superan un umbral de probabilidad en los últimos 5 fragmentos.
-- **Puntaje de Evolución**: Resultado final de combinar las métricas anteriores utilizando una fórmula ponderada.
-- **Clasificación Final**: Predicción basada en el puntaje de evolución, que puede indicar:
-  - "Es probable que la violencia evolucione."
-  - "La violencia parece mantenerse estable."
-  - "Es probable que la violencia disminuya."
+**1. Fórmula del grado de violencia**  
+Esta fórmula calcula el grado de violencia como una suma ponderada de los eventos detectados.  
+- **Peso**: Representa la relevancia o severidad de cada etiqueta (por ejemplo, "gun_shot" tiene un peso mayor que "people_talking").  
+- **Probabilidad**: Es la probabilidad de que un evento específico esté presente en el fragmento, según el modelo de detección.  
+- **Distancia**: La distancia entre los embeddings del fragmento y un punto de referencia. Valores más cercanos indican mayor similitud. Para evitar divisiones por cero, se suma un pequeño valor **epsilon**.
+
+**2. Promedio Grado de Violencia Reciente**  
+Este valor es el promedio del grado de violencia en los últimos 5 fragmentos procesados. Refleja la intensidad promedio reciente.  
+
+**3. Pendiente de la Tendencia**  
+Se calcula utilizando regresión lineal para identificar si el grado de violencia está aumentando o disminuyendo. Una pendiente positiva sugiere que la violencia está evolucionando, mientras que una pendiente negativa indica una disminución.  
+
+**4. Eventos Críticos Altos**  
+Este indicador cuenta cuántos eventos críticos como disparos, gritos o vidrios rotos superan un umbral de probabilidad del 50% en los últimos 5 fragmentos.  
+
+**5. Puntaje de Evolución**  
+El puntaje combina todas las métricas anteriores utilizando una fórmula ponderada:  
+\[
+Puntaje\ de\ Evolución = \alpha \cdot Promedio\ Grado\ de\ Violencia + \beta \cdot Pendiente\ de\ la\ Tendencia + \gamma \cdot Eventos\ Críticos\ Altos
+\]
+Donde **α, β y γ** son pesos asignados para balancear la importancia de cada métrica.
+
+**6. Clasificación Final**  
+Basado en el puntaje de evolución, se determina si la violencia probablemente evoluciona, se mantiene estable o disminuye.
 """)
 
+st.write("""
+### Predicción de violencia
+""")
+
+st.latex(r"""
+Puntaje\ de\ Evolución = \frac{\alpha \cdot Promedio + \beta \cdot Pendiente + \gamma \cdot Eventos\ Críticos}{100}
+""")
+
+st.write("""
+El **Puntaje de Evolución** se calcula como una combinación ponderada de tres métricas clave: 
+el promedio reciente del grado de violencia, la pendiente de la tendencia de la violencia y el número de eventos críticos detectados. 
+Esta combinación se divide entre 100 para normalizar el resultado. La fórmula es:
+
+""")
+st.write("""
+Donde:
+- **Promedio**: Es la media del grado de violencia calculado en los últimos fragmentos.
+- **Pendiente**: Representa la dirección y magnitud del cambio en el grado de violencia reciente.
+- **Eventos Críticos**: Es el número de eventos graves (como disparos o gritos) detectados en los fragmentos recientes, ponderados por su impacto.
+- **α, β, γ**: Son los pesos asignados a cada componente, ajustados para reflejar su importancia relativa en la evaluación.
+
+El resultado final clasifica la evolución de la violencia en tres categorías:
+- Si el puntaje es mayor a 0.5: **Es probable que la violencia evolucione.**
+- Si el puntaje está entre 0.2 y 0.5: **La violencia parece mantenerse estable.**
+- Si el puntaje es menor a 0.2: **Es probable que la violencia disminuya.**
+""")
+
+# Clasificar los valores de 'Grado de Violencia' en los rangos definidos
+def categorize_violence(degree):
+    if degree <= 50:
+        return "Baja Violencia"
+    elif degree <= 200:
+        return "Violencia Moderada"
+    elif degree <= 500:
+        return "Alta Violencia"
+    else:
+        return "Fuera de Rango"
+    
 # Verificar si el directorio de histórico contiene archivos
 if not os.path.exists(HISTORIC_DIR):
     st.error(f"La carpeta de histórico no existe: {HISTORIC_DIR}")
@@ -96,6 +148,16 @@ else:
                 plt.legend()
                 plt.grid(True)
                 st.pyplot(plt)
+                
+                # Aplicar la clasificación al DataFrame
+                df['Categoría de Violencia'] = df['Grado de Violencia'].apply(categorize_violence)
+
+                # Contar las frecuencias de cada categoría
+                violence_category_counts = df['Categoría de Violencia'].value_counts()
+
+                # Mostrar la categoría más frecuente dentro de cada rango
+                st.write("Frecuencia de las categorías de violencia:")
+                st.write(violence_category_counts)
 
                 # Calcular predicción de la evolución de la violencia
                 result, breakdown = predict_violence_evolution(df, LABEL_WEIGHTS)
