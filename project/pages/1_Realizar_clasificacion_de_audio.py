@@ -3,7 +3,7 @@ import librosa
 import soundfile as sf
 import os
 import pandas as pd
-import speech_recognition as speech_recog
+import whisper  
 from modules.chroma_query import load_chroma_db, query_chroma_db
 from modules.audio_prediction import load_audio_model, split_audio, predict_episode
 
@@ -37,15 +37,11 @@ model_choice = st.selectbox("Selecciona el modelo de predicción:", list(models.
 model = load_audio_model(models[model_choice])
 st.write(f"Modelo seleccionado: **{model_choice}**")
 
-# Función para convertir audio a texto usando Speech-to-Text
+# Función para convertir audio a texto usando Whisper
 def audio_to_text(audio_path):
-    recognizer = speech_recog.Recognizer()
-    try:
-        with speech_recog.AudioFile(audio_path) as source:
-            audio = recognizer.record(source)
-        return recognizer.recognize_google(audio, language="es-ES")
-    except (speech_recog.UnknownValueError, speech_recog.RequestError):
-        return ""
+    model = whisper.load_model("base")  # Cargar el modelo base de Whisper
+    result = model.transcribe(audio_path, language="es")  # Transcribir el audio siempre a español
+    return result["text"]  # Devolver el texto transcrito
 
 # Subir archivo de audio
 uploaded_file = st.file_uploader("Sube un archivo de audio", type=["wav"])
@@ -64,7 +60,7 @@ if uploaded_file:
 
         st.audio(fragment_filename, format="audio/wav")
 
-        recognized_text = audio_to_text(fragment_filename)
+        recognized_text = audio_to_text(fragment_filename)  # Usamos la función de Whisper
         document, distance = query_chroma_db(db, recognized_text) if recognized_text else (None, None)
 
         pred_percentage = [round(p * 100, 2) for p in pred]
