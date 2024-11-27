@@ -7,15 +7,15 @@ from modules.audio_prediction import load_audio_model, split_audio, predict_epis
 from modules.chroma_query import load_chroma_db, query_chroma_db
 
 # Configuración de directorios
-AUDIO_DIR = '/Users/carli.code/Desktop/ViolenceDetection/audio test'
-HISTORIC_DIR = '/Users/carli.code/Desktop/ViolenceDetection/histórico'
+AUDIO_DIR = '/audio test'
+HISTORIC_DIR = '/histórico'
 os.makedirs(HISTORIC_DIR, exist_ok=True)
 
 # Modelos disponibles
 models = {
     
-    "Gaussian Noise con 40 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian noise_40.h5",
-    "Gaussian Noise con 100 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian_noise_100.h5"
+    "Gaussian Noise con 40 epochs": "/models/gaussian noise_40.h5",
+    "Gaussian Noise con 100 epochs": "/models/gaussian_noise_100.h5"
 }
 
 # Cargar la base vectorial de ChromaDB

@@ -1,0 +1,271 @@
+Número de Fragmento,Tiempo del Fragmento,Texto,Embedding Asociado,Distancia,crying,glass_breaking,gun_shot,people_talking,screams
+1,"0,2","Porque el 22, me preguntaba si puedo.",¿Por qué me haces esto?,0.4368,99.93,0.0,0.0,0.07,0.0
+2,"2,4",a ver a Henry ese viernes.,te voy a joder,0.4454,93.5,0.0,0.0,6.5,0.0
+3,"4,6","El 22, o sea que el 22...",Lo que sea pero aléjate,0.3643,99.09,0.0,0.0,0.78,0.12
+4,"6,8",Y uno...,Eres quien está mal aquí,0.3887,98.13,0.03,0.05,1.53,0.27
+5,"8,10","Tenemos planes, vamos a ir.",debe ser asesinado,0.4912,98.49,0.01,0.0,1.41,0.08
+6,"10,12","Algo en el lacma, cosas primas.",Lo que sea pero aléjate,0.3827,99.18,0.0,0.0,0.81,0.01
+7,"12,14","¿Podrías cambiarlo, por favor?",camionero,0.3474,99.29,0.3,0.0,0.4,0.01
+8,"14,16",¿Para que lo vea?,¿Por qué me haces esto?,0.2114,98.9,0.01,0.0,1.07,0.02
+9,"16,18",Solo es una noche y lo esperé con ansia.,te voy a sacar al concha de tu madre,0.4088,98.63,0.02,0.0,1.35,0.0
+10,"18,20","Es mi noche, Charlie.",te voy a sacar al concha de tu madre,0.4215,99.38,0.01,0.03,0.58,0.0
+11,"20,22",negociamos? Entiendo bien.,eres una negra ,0.3659,98.29,0.05,0.0,1.61,0.05
+12,"22,24",What the? You're dead.,desahuevate,0.7949,72.08,0.0,2.86,24.99,0.07
+13,"24,26","Nada, solo te pido que seas...",Lo que sea pero aléjate,0.2842,99.22,0.01,0.01,0.75,0.02
+14,"26,28","Yo soy flexible. Soy flexible, tú vas y vienes.",me llegas al pincho,0.4831,95.08,0.0,0.0,4.92,0.0
+15,"28,30",si yo hago ajustes por tu itinerario esta noche.,¿Por qué me haces esto?,0.4402,1.18,0.0,0.0,98.82,0.0
+16,"30,32","tenemos entradas para el momento. No es solo esta noche, pero está bien.",Esto no puede estar pasando,0.3955,0.14,0.0,0.16,99.7,0.0
+17,"32,34",La maestra de Henry quiere ver.,cagon de mierda,0.4077,0.27,0.0,0.02,99.72,0.0
+18,"34,36",de vernos. ¿Hablas de su maestra en Los Ángeles?,te vas a la mierda,0.3769,12.76,0.0,0.11,87.12,0.0
+19,"36,38",¿Podrías contestar el e-mail?,¿Por qué me haces esto?,0.4492,0.11,0.0,0.0,99.89,0.0
+20,"38,40",¿Para concretar la fecha?,te voy a sacar al concha de tu madre,0.3277,1.27,0.0,0.04,98.69,0.0
+21,"40,42",He estado distraído.,voy a dispararte,0.3672,37.16,0.01,2.15,60.66,0.03
+22,"42,44","Sí, lo entiendo.",No quiero pelear,0.3710,1.71,0.0,1.44,96.85,0.0
+23,"44,46",de descartar cualquier cosa con esta reunión.,No voy a dejar que me destruyas,0.4141,5.43,0.0,2.52,92.05,0.0
+24,"46,48","Creo que solo es ansioso, creo que...",Eres quien está mal aquí,0.3402,2.35,0.0,0.0,97.65,0.0
+25,"48,50",Que quiere todo en el momento.,Eres quien está mal aquí,0.3069,8.97,0.0,1.05,89.98,0.0
+26,"50,52",Que es fuera de serie en matemáticas.,Solo quiero que esto termine,0.4043,1.13,0.0,0.0,98.87,0.0
+27,"52,54",Se da por vencido muy rápido cuando las cosas no le salen bien.,No soy lo que dices,0.4266,0.11,0.0,0.0,99.89,0.0
+28,"54,56",son fáciles. Es como nosotros. Te saludo.,Por favor no me lastimes,0.4486,0.25,0.0,0.01,99.75,0.0
+29,"56,58",Es muy malo en Monopoly.,Eres quien está mal aquí,0.3770,1.99,0.0,0.04,97.98,0.0
+30,"58,60",porque quiere ahorrar todo su dinero.,quiero hacerte daño,0.3491,0.95,0.0,0.04,99.02,0.0
+31,"60,62",Hehehehe,aweonao,0.7015,23.17,0.0,9.91,66.91,0.01
+32,"62,64",Thanks for watching!,No quiero problemas,0.7988,0.27,0.0,4.05,95.68,0.0
+33,"64,66",,,,4.25,0.0,12.84,82.91,0.0
+34,"66,68","... Léo, qu'est-ce que t'as ?",te asesinaré,0.6089,37.76,0.0,5.48,56.75,0.0
+35,"68,70",Hay que hablar.,Hablaremos después ¿sí?,0.2986,21.92,0.21,37.79,39.51,0.57
+36,"70,72",Siento que las cosas han ido demasiado lejos.,Lo que sea pero aléjate,0.3797,29.51,0.0,0.02,70.47,0.0
+37,"72,74",Ajá. Mi mamá...,te vas a la mierda,0.4768,4.24,0.0,4.27,91.49,0.0
+38,"74,76",pidió un préstamo sobre la casa para pagarle a...,eres una prostituta,0.4195,0.07,0.0,0.03,99.9,0.0
+39,"76,78",¿Pedí que yo pagaba Nora?,No quiero pelear,0.3997,1.18,0.0,0.42,98.4,0.0
+40,"78,80",Tú pagas el 30% de Nora.,No quiero pelear,0.4458,0.58,0.0,0.06,99.37,0.0
+41,"80,82","También me estoy quedando sin un clavo, si de algo te sirve.",eres mi esclavo,0.3845,29.97,0.0,0.0,70.03,0.0
+42,"82,84",Acepté a dirigir dos obras de mierda.,te voy a a hacer mierda,0.3714,81.54,0.0,0.35,18.11,0.0
+43,"84,86",y nos podemos olvidar de ahorrar para la humanidad.,Hablaremos después ¿sí?,0.4294,3.74,0.0,0.06,96.2,0.0
+44,"86,88",de la Universidad de Henry.,cagon de mierda,0.5360,81.75,0.0,0.0,18.25,0.0
+45,"88,90",hasta ahora hemos logrado mantener al,eres una basura,0.4637,0.86,0.0,0.1,99.04,0.0
+46,"90,92",un poco a Henry y esto cambiará todo.,Eres quien está mal aquí,0.4213,0.12,0.0,0.14,99.74,0.0
+47,"92,94",¿Tú? Mhm. Te vemos. ,¿Por qué me haces esto?,0.3291,2.53,0.0,1.46,96.01,0.0
+48,"94,96",protegerlo. Estoy de acuerdo.,Por favor para,0.3883,3.54,0.0,1.19,95.28,0.0
+49,"96,98",dijo que el evaluador irá a,Eres quien está mal aquí,0.3671,0.0,0.0,0.0,100.0,0.0
+50,"98,100",en nuestras casas.,te vas a la mierda,0.4817,2.11,0.0,0.0,97.89,0.0
+51,"100,102","que enríe además de a nosotros, a nuestras familias.",Eres quien está mal aquí,0.4162,0.17,0.0,0.53,99.3,0.0
+52,"102,104","nuestros amigos, familiares.",maten a los blancos,0.3896,0.26,0.0,0.0,99.73,0.0
+53,"104,106",enemigos y nos,Eres quien está mal aquí,0.3556,0.04,0.0,0.0,99.96,0.0
+54,"106,108",,,,0.09,0.0,0.0,99.91,0.0
+55,"108,110",Suena horrible. Lo sé.,hijo de puta,0.4740,20.36,0.01,60.07,19.52,0.04
+56,"110,112",Siento que si alguien me observa en un día...,Solo quiero que esto termine,0.3622,0.0,0.0,0.0,100.0,0.0
+57,"112,114",cualquiera no me darían la custodia.,te voy a sacar al concha de tu madre,0.3677,0.0,0.0,0.0,100.0,0.0
+58,"114,116",ご視聴ありがとうございました。,Alguien ayúdeme,0.7367,0.29,0.0,38.12,61.6,0.0
+59,"116,118",Esa fue una broma.,eres una basura,0.3325,21.41,0.0,17.96,60.63,0.0
+60,"118,120",¿Eh? Yo siento lo mismo. Sí.,¿Por qué me haces esto?,0.3326,72.83,0.0,0.27,26.9,0.0
+61,"120,122",Así que...,voy a asesinarte,0.3415,0.27,0.0,0.02,99.71,0.0
+62,"122,124",Tal vez podamos arreglarnos entre nosotros.,eres una negra ,0.4034,1.74,0.0,0.01,98.25,0.0
+63,"124,126",nosotros.,nos drogaremos,0.3611,93.61,0.0,0.42,5.94,0.03
+64,"126,128",Yo te lo dije al principio. Sé que lo hiciste.,hijo de la perra,0.3942,47.36,0.0,0.0,52.64,0.0
+65,"128,130",pero son diferentes circunstancias.,No tienes derecho,0.4544,95.0,0.01,0.0,4.99,0.0
+66,"130,132",y que no participe a estas circunstancias.,No soy lo que dices,0.4247,17.23,0.0,0.07,82.7,0.0
+67,"132,134","Como sea, lo intentamos.",Lo que sea pero aléjate,0.2325,5.56,0.0,0.05,94.39,0.0
+68,"134,136",Okay.,gay,0.7426,10.68,0.04,80.46,8.37,0.46
+69,"136,138",Thank you for watching.,Tengo miedo,0.7773,0.26,0.0,5.38,94.36,0.0
+70,"138,140",ご視聴ありがとうございました,Alguien ayúdeme,0.7367,0.09,0.0,15.1,84.81,0.0
+71,"140,142",you,gay,0.6730,0.34,0.0,50.53,49.14,0.0
+72,"142,144",ご視聴ありがとうございました,Alguien ayúdeme,0.7367,0.08,0.0,1.17,98.75,0.0
+73,"144,146",ご視聴ありがとうございました,Alguien ayúdeme,0.7367,0.41,0.0,8.39,91.2,0.0
+74,"146,148",見てくれてありがとう 💛,eres una basura,0.7431,0.42,0.0,25.56,74.02,0.0
+75,"148,150",Ну что?,nos drogaremos,0.5624,3.0,0.08,94.67,1.73,0.53
+76,"150,152",No sé dónde empezar.,eres mi esclavo,0.3763,6.56,0.0,4.04,89.37,0.03
+77,"152,154",¿Entiendes?,¿Por qué me haces esto?,0.4207,12.44,0.0,15.77,71.79,0.0
+78,"154,156",porque me quiero quedar en Los Ángeles.,¿Por qué me haces esto?,0.4737,0.0,0.0,0.0,100.0,0.0
+79,"156,158",No. Eso no.,nono,0.3919,56.66,0.03,34.92,8.18,0.22
+80,"158,160","No, Charlie, esa no es una forma.",te voy a sacar al concha de tu madre,0.3709,1.22,0.0,0.01,98.77,0.0
+81,"160,162",de empezar. Yo no lo entiendo.,eres mi esclavo,0.3887,0.52,0.0,0.45,99.03,0.0
+82,"162,164",Thank you.,aweonao,0.7085,65.18,0.01,30.65,3.07,1.09
+83,"164,166",¿No recuerdas prometer que pasaríamos?,Esto no puede estar pasando,0.2760,0.02,0.0,0.0,99.98,0.0
+84,"166,168",por mucho tiempo aquí. Discutimos las cosas.,No quiero problemas,0.3894,60.43,0.04,0.01,39.52,0.0
+85,"168,170","Estábamos casados, dijimos cosas.",debe ser asesinado,0.4778,73.28,1.64,16.55,8.04,0.49
+86,"170,172","de mudarnos a Europa, sobrecomprar...",voy a dispararte,0.4695,29.39,0.15,31.51,38.51,0.44
+87,"172,174",dar un...,nos drogaremos,0.5525,7.3,0.01,58.18,34.32,0.2
+88,"174,176",declarador o como se llame,quemero,0.3200,12.88,0.01,8.18,78.89,0.04
+89,"176,178",una credencia para llenar el espacio de,llorar como una perra,0.4097,0.2,0.0,0.01,99.8,0.0
+90,"178,180",detrás del sofá. No hicimos nada de eso.,No tienes derecho,0.4204,5.85,0.0,0.02,94.13,0.0
+91,"180,182",Tú rechazaste el puesto en el Geffen que nos...,Esto no puede estar pasando,0.3541,5.9,0.0,0.0,94.1,0.0
+92,"182,184",Los habría traído aquí por un año.,Eres quien está mal aquí,0.3510,99.59,0.0,0.0,0.37,0.04
+93,"184,186",¿No era algo que yo quería?,¿Por qué me haces esto?,0.2899,0.48,0.0,0.01,99.51,0.0
+94,"186,188","una compañía de teatro, y una gran vida donde estábamos.",hijo de la gran flauta,0.4248,0.34,0.0,0.01,99.66,0.0
+95,"188,190",¿Llamas a eso una gran sorpresa?,llorar como una perra,0.3456,74.91,0.07,0.15,24.87,0.0
+96,"190,192",¿Sabes de qué hablo? No hablo de un gran matrimonio.,hijo de la gran flauta,0.4815,8.54,0.01,8.78,82.66,0.02
+97,"192,194",Hablo de la vida en Brooklyn.,me quitaré la vida,0.4221,28.67,0.04,51.05,20.04,0.21
+98,"194,196",Profesionalmente.,eres una prostituta,0.3404,98.79,0.0,0.17,1.02,0.01
+99,"196,198","No lo sé. Honestamente, nunca consideré algo diferente.",Solo quiero que esto termine,0.4103,2.65,0.0,0.04,97.31,0.0
+100,"198,200","Bueno, ese es el problema, ¿no es así?",No quiero problemas,0.3547,1.13,0.0,0.88,97.98,0.0
+101,"200,202","Digo, ¿era tu esposa?",¿Por qué me haces esto?,0.3269,11.88,0.01,0.06,88.04,0.0
+102,"202,204",¿Puedes considerar mi felicidad también? ¡Por favor!,Por favor ya no más,0.3645,59.89,0.03,0.0,39.85,0.23
+103,"204,206","Tú eras feliz, tú solo decidiste...",Déjame salir,0.4244,91.37,0.01,0.0,8.61,0.0
+104,"206,208",que no lo eras ahora.,Hablaremos después ¿sí?,0.3103,5.11,0.0,33.5,61.13,0.25
+105,"208,210","Bien, ¿no? Bien.",Por favor ya no más,0.3974,93.94,0.02,2.83,3.13,0.08
+106,"210,212","Vamos, vamos.",te vas a la mierda,0.3946,99.44,0.0,0.0,0.49,0.06
+107,"212,214","Mi trabajo está aquí ahora, mi familia...",¿Por qué me haces esto?,0.3988,68.82,0.0,0.0,31.17,0.01
+108,"214,216",¡Emilia está aquí!,Eres quien está mal aquí,0.4201,65.21,0.0,0.01,34.78,0.0
+109,"216,218",viaje en real escuela porque el programa se convirtió en,eres mi esclavo,0.4856,3.96,0.0,0.15,95.89,0.0
+110,"218,220","En serio, lo hice sabiendo que una vez que...",Lo que sea pero aléjate,0.3434,98.6,0.17,0.0,1.07,0.16
+111,"220,222","el regresaría a Nueva York. Amor, nunca dije...",te vas a la mierda,0.4299,22.66,0.01,0.14,77.16,0.03
+112,"222,224","Tal vez fue tu suposición, pero nunca fue verdad.",No quiero sufrir más,0.4301,74.91,0.01,0.0,25.08,0.0
+113,"224,226","nunca lo expresamos. Sí, lo dijimos.",Hablaremos después ¿sí?,0.3828,63.28,0.0,0.0,36.71,0.01
+114,"226,228",¿Cuándo lo dijimos?,¿Por qué me haces esto?,0.2759,64.07,0.0,0.21,35.72,0.0
+115,"228,230",¿Cuándo lo dijimos? ¡Pero lo dijimos!,hijo de la perra,0.3837,98.01,0.07,0.02,1.86,0.04
+116,"230,232",¿Y yo qué? ¿Por qué llaves por teléfono? ,¿Por qué me haces esto?,0.3574,98.52,0.0,0.0,1.48,0.0
+117,"232,234","¡Déjame terminar! Lo siento, sigo diciendo eso.",Solo quiero que esto termine,0.2875,64.51,0.0,0.01,35.48,0.0
+118,"234,236",Yo creí que sí.,Hablaremos después ¿sí?,0.3649,0.84,0.0,0.0,99.16,0.0
+119,"236,238",Henry era feliz aquí y mi programa...,Eres quien está mal aquí,0.4024,0.02,0.0,0.0,99.98,0.0
+120,"238,240","continuaba, estaríamos en Los Ángeles por un tiempo.",Solo quiero que esto termine,0.4257,0.02,0.0,0.0,99.98,0.0
+121,"240,242",tiempo. Yo no fui parte de ese proceso.,Solo quiero que esto termine,0.3684,98.26,0.0,0.03,1.64,0.05
+122,"242,244",La única razón por la que,Eres quien está mal aquí,0.3437,86.94,0.03,0.02,12.89,0.12
+123,"244,246","es porque no vivimos aquí, es porque no puedes imaginar...",Eres quien está mal aquí,0.3823,85.5,0.17,0.01,14.1,0.23
+124,"246,248","otros deseos, más que los tuyos, ¡claro!",te romperé el culo,0.3932,99.77,0.0,0.0,0.22,0.02
+125,"248,250","que te obliguen. Ok, desearías no haberte casado.",Hablaremos después ¿sí?,0.4173,65.3,0.11,0.02,34.53,0.05
+126,"250,252",conmigo tener una vida diferente pero,llorar como una perra,0.3694,90.9,0.17,0.05,8.64,0.23
+127,"252,254",Esto es lo que pasó.,Lo que sea pero aléjate,0.3643,15.54,0.79,61.0,5.13,17.54
+128,"254,256",¿Entonces qué hacemos? No lo sé.,¿Por qué me haces esto?,0.2008,96.62,0.0,0.03,3.34,0.0
+129,"256,258",,,,23.08,0.02,72.69,2.54,1.66
+130,"258,260",dice que no hay como regresar de esto.,Solo quiero que esto termine,0.3498,28.25,0.01,0.06,71.66,0.02
+131,"260,262","¡Mierda con Nora, odio a la puta Nora!",eres una puta,0.3744,70.35,0.11,2.37,27.03,0.14
+132,"262,264","Siempre que he vivido en Los Ángeles, aunque nunca he...",Lo que sea pero aléjate,0.4739,63.2,0.12,0.03,36.61,0.04
+133,"264,266",He vivido en Los Ángeles.,Lo que sea pero aléjate,0.4852,75.2,1.7,1.1,8.52,13.48
+134,"266,268",¿Cómo dejaste que dijera esas cosas sobre mí?,No voy a dejar que me destruyas,0.3082,77.56,0.0,0.11,22.33,0.0
+135,"268,270",y las dijo de mí también.,¿Por qué me haces esto?,0.2851,32.71,0.02,0.0,67.26,0.01
+136,"270,272",¡No debiste despedir a Bert!,No voy a dejar que me destruyas,0.4212,98.7,0.03,0.02,1.2,0.06
+137,"272,274","Escapa a mi propio, hijo de puta.",hijo de puta,0.1856,95.48,0.03,0.0,0.21,4.27
+138,"274,276",Te acordemos que ambos,Eres quien está mal aquí,0.3071,99.64,0.03,0.0,0.02,0.31
+139,"276,278",Los abogados dijeron un montón de mierda.,te vas a la mierda,0.3123,83.0,0.01,0.0,16.99,0.0
+140,"278,280",,,,64.7,0.02,5.42,0.72,29.13
+141,"280,282",Jay dijo que era alcohólica.,Lo que sea pero aléjate,0.4133,50.73,0.0,0.0,49.26,0.0
+142,"282,284","Fuiste la que me metió el pie, Inés, es pasar por un infierno.",andar con la piedra o roca,0.3722,0.02,0.0,0.02,99.97,0.0
+143,"284,286",¡Tú me hiciste pasar por un infierno en nuestro matrimonio!,Esto no puede estar pasando,0.4355,95.23,0.19,0.01,4.26,0.31
+144,"286,288","¿Eso es lo que fue, el infierno?",¿Por qué me haces esto?,0.3557,98.3,0.06,0.0,1.18,0.46
+145,"288,290",en esta horrible situación para que puedas...,Lo que sea pero aléjate,0.4004,92.44,0.03,0.0,0.94,6.59
+146,"290,292",Obtener lo que quieres. No es lo que quiero.,¿Por qué me haces esto?,0.3612,94.19,0.19,0.08,4.22,1.32
+147,"292,294","Digo, es lo que quiero, pero es...",Está bien haré lo que digas,0.3434,99.79,0.01,0.0,0.18,0.03
+148,"294,296",Era!,te lastimaré,0.6167,45.27,0.01,48.69,5.83,0.21
+149,"296,298",Lo que es mejor para él,Lo que sea pero aléjate,0.2984,66.87,0.31,19.84,3.07,9.91
+150,"298,300","Me preguntaba, ¿cuándo llegarías a Henry?",me llegas al pincho,0.4219,99.82,0.0,0.0,0.07,0.11
+151,"300,302",Lo que él quiere en realidad. ¡No jodas!,Eres quien está mal aquí,0.3408,38.09,0.39,0.2,0.7,60.62
+152,"302,304",¡No! ¡Tú no jodas!,te voy a joder,0.3713,99.04,0.0,0.0,0.01,0.95
+153,"304,306",a tu hijo o a cualquiera que te diga que no.,quemero,0.3907,97.48,0.04,0.0,0.04,2.44
+154,"306,308",que él prefiere vivir aquí.,Eres quien está mal aquí,0.3382,95.6,0.16,0.01,0.25,3.98
+155,"308,310",a proyectar tus sentimientos sobre el general. ,eres una prostituta,0.3701,90.22,0.49,0.12,9.06,0.1
+156,"310,312",que le gusta más aquí. Él lo dice porque sabe.,Eres quien está mal aquí,0.3541,99.77,0.01,0.0,0.2,0.02
+157,"312,314",¿Qué es lo que quieres oír? Me dice que estás alterada.,¿Por qué me haces esto?,0.2922,29.51,0.03,0.04,70.42,0.01
+158,"314,316",el teléfono todo el tiempo y no juegas con él.,Solo quiero que esto termine,0.3839,99.07,0.03,0.0,0.29,0.61
+159,"316,318",por un divorcio en Los Ángeles y trato de...,te vas a la mierda,0.4259,98.33,0.29,0.0,0.05,1.33
+160,"318,320","de dirigir una obra en Nueva York que, por cierto...",llorar como una perra,0.4324,99.93,0.0,0.0,0.0,0.07
+161,"320,322",porque yo no estaba ahí.,¿Por qué me haces esto?,0.3558,1.03,0.02,0.01,0.0,98.93
+162,"322,324",Por algo que ni siquiera,No quiero pelear,0.3280,78.3,0.16,1.18,20.0,0.36
+163,"324,326",¡Torce a todos!,Por favor para,0.4214,11.95,2.91,60.76,6.07,18.31
+164,"326,328",Estás comportando como tu padre.,¿Por qué me haces esto?,0.4098,95.14,0.08,0.13,1.45,3.2
+165,"328,330",NO ME COMPARES CON MI PADRE,¿Por qué me haces esto?,0.4708,96.97,0.11,0.11,0.62,2.2
+166,"330,332","No te comparé con él, dije que actúas como él.",Lo que sea pero aléjate,0.4166,99.57,0.0,0.0,0.36,0.06
+167,"332,334","Eres exactamente como tu madre, todo lo que te quie-",Eres quien está mal aquí,0.3320,35.58,0.25,4.57,59.31,0.29
+168,"334,336","No te alejabas de ella, lo estás haciendo.",Lo que sea pero aléjate,0.3690,52.09,6.5,4.82,4.43,32.16
+169,"336,338",¿Por qué estás invocando a Henry?,Eres quien está mal aquí,0.4442,78.27,0.96,1.11,4.24,15.42
+170,"338,340","como a mi madre, ella fue una maravillosa madre",hijo de tu perra madre ,0.2631,99.82,0.02,0.0,0.07,0.09
+171,"340,342","lo que me dijiste. Y luego, ¿cómo puedes comparar?",¿Por qué me haces esto?,0.4047,99.9,0.0,0.0,0.01,0.08
+172,"342,344",mi maternidad con la de mi madre.,te voy a sacar al concha de tu madre,0.3211,84.55,0.0,0.0,0.01,15.44
+173,"344,346","Podré ser como mi padre, pero no...",debe ser asesinado,0.3560,22.98,0.01,0.0,0.01,76.99
+174,"346,348",¡No soy como mi madre! ¡Lo eres!,hijo de tu perra madre ,0.3089,99.84,0.01,0.0,0.0,0.15
+175,"348,350",¡Y eres como mi padre!,Eres quien está mal aquí,0.4036,99.02,0.27,0.0,0.2,0.51
+176,"350,352","¡Tú bien eres como mi madre, tú eres lo verdadero!",hijo de tu perra madre ,0.2835,99.84,0.0,0.0,0.01,0.15
+177,"352,354",¡Es el peor de todas estas personas!,Eres quien está mal aquí,0.3883,8.84,0.21,0.21,0.03,90.72
+178,"354,356","pero sobre todo tu madre, cuando nos recostábamos.",hijo de tu perra madre ,0.2758,94.26,0.15,0.1,2.43,3.06
+179,"356,358","juntos, a veces la veía a ella en tí.",te vas a la mierda,0.3477,1.56,0.0,0.13,98.31,0.0
+180,"358,360","Sí, me sentí asqueado. Yo sentí arrepentimiento.",¿Por qué me haces esto?,0.3738,38.19,1.55,0.21,0.15,59.89
+181,"360,362",repulsión cuando tú me tocabas. Eres una cerda.,Esto no puede estar pasando,0.4390,94.79,0.21,0.05,3.12,1.83
+182,"362,364","Yo hacia la cama, cerraba los ojos.",te voy a sacar al concha de tu madre,0.4050,0.15,0.01,0.0,0.0,99.83
+183,"364,366",¡Arrancarle la piel!,andar con la piedra o roca,0.4005,95.98,0.73,0.02,2.14,1.13
+184,"366,368",¡Voy a tener sexo contigo!,te voy a sacar al concha de tu madre,0.4077,97.35,0.11,0.0,1.45,1.09
+185,"368,370",En Los Ángeles o en donde sea.,Lo que sea pero aléjate,0.3407,58.42,0.02,0.04,41.51,0.02
+186,"370,372",encontraste un mejor y opuesto hombre que yo,¿Por qué me haces esto?,0.3542,99.85,0.09,0.0,0.06,0.01
+187,"372,374",y en algunos años te revela,Eres quien está mal aquí,0.3655,98.74,0.01,0.0,1.25,0.0
+188,"374,376",Estarás contra él porque necesitas tenerte.,Solo quiero que esto termine,0.3134,99.59,0.02,0.0,0.35,0.04
+189,"376,378","No quiero que te olvides de tu voz, pero no quieres una voz.",¿Por qué me haces esto?,0.3807,84.47,3.38,0.22,7.72,4.21
+190,"378,380",¡Sólo te quieres quejar de no tener una puta madre!,te voy a sacar al concha de tu madre,0.2684,89.89,0.24,0.02,9.05,0.81
+191,"380,382",que estuvo casada contigo.,Solo quiero que esto termine,0.4573,93.32,0.17,0.03,1.65,4.83
+192,"382,384",Ahora es una extraña para mí.,te voy a sacar al concha de tu madre,0.3711,95.69,0.02,0.0,0.05,4.23
+193,"384,386",¡Tuvimos un matrimonio!,eres una maricon,0.4488,99.69,0.0,0.0,0.25,0.06
+194,"386,388",¿Por qué no regresas a tu vida antes de que te vayas a morir?,¿Por qué me haces esto?,0.3441,1.43,0.0,0.74,97.82,0.0
+195,"388,390","de conocerme, es patético.",te voy a sacar al concha de tu madre,0.3724,12.62,0.04,0.68,86.6,0.05
+196,"390,392",Me decían que tú eres demasiado egoísta para ser...,debe ser asesinado,0.3233,85.43,0.01,0.0,14.56,0.0
+197,"392,394","a ser un gran artista, y yo siento...",hijo de la gran flauta,0.3286,95.47,0.34,0.0,4.03,0.15
+198,"394,396",¡Siempre te defendía!,me llegas al pincho,0.4240,99.6,0.0,0.01,0.05,0.33
+199,"396,398",,,,24.85,0.09,0.08,0.05,74.94
+200,"398,400",Volviste a hacer una farsa.,eres una basura,0.4017,0.1,0.0,0.02,0.0,99.88
+201,"400,402",¡Gaste con mi mente! ¡Eres un maldito...!,te voy a maltratar,0.3345,98.82,0.0,0.0,0.03,1.16
+202,"402,404",¿Por qué quieres presentarte como la víctima?,¿Por qué me haces esto?,0.3997,99.41,0.04,0.0,0.05,0.49
+203,"404,406",porque es una buena estrategia legal.,eres una prostituta,0.4197,5.49,0.01,0.02,94.48,0.0
+204,"406,408",pero tú y yo sabemos qué escoger.,te voy a sacar al concha de tu madre,0.3358,99.14,0.02,0.0,0.81,0.02
+205,"408,410",¿Por qué corregiste esta vida?,¿Por qué me haces esto?,0.3402,72.57,0.11,12.46,9.56,5.31
+206,"410,412",¿Qué hiciste hasta que ella no?,Hablaremos después ¿sí?,0.3878,82.22,5.8,2.04,3.77,6.16
+207,"412,414",Tú me usaste para poder salir.,me llegas al pincho,0.3449,99.21,0.04,0.09,0.66,0.01
+208,"414,416",a salir de Los Ángeles.,a la mierda,0.4146,93.95,0.02,0.0,6.03,0.0
+209,"416,418",¡Lo hiciste y luego me culpaste por ti!,te voy a sacar al concha de tu madre,0.4021,98.95,0.08,0.0,0.91,0.06
+210,"418,420",¡Por ello! ¡Siempre me hiciste saber lo que...,Lo que sea pero aléjate,0.3389,56.52,0.59,0.91,5.04,36.95
+211,"420,422","Lo que estaba haciendo mal, lo que no estaba logrando.",¿Por qué me haces esto?,0.3353,85.55,0.4,0.0,0.07,13.98
+212,"422,424",La vida contigo era triste.,eres una prostituta,0.3678,65.77,0.3,0.01,0.17,33.74
+213,"424,426",¿Qué? ¿Y entonces tenías que cogerme?,¿Por qué me haces esto?,0.3847,97.0,0.07,0.01,1.75,1.16
+214,"426,428",¡No debería molestarte!,te voy a maltratar,0.4482,97.64,0.0,0.0,0.03,2.32
+215,"428,430",¡Que me la cogiste para molestarte!,te voy a sacar al concha de tu madre,0.4261,32.43,0.04,0.01,0.19,67.33
+216,"430,432",¡Yo reí con ella! ¡No la amas!,Eres quien está mal aquí,0.3898,2.58,0.3,0.01,0.04,97.07
+217,"432,434","¡Oh, pero ella no me odiaba!",hijo de la perra,0.4009,65.14,0.07,0.0,34.78,0.0
+218,"434,436",Tu me odiavas! Tu me odiavas!,eres mi esclavo,0.4866,99.94,0.0,0.0,0.06,0.0
+219,"436,438",¡Te cogiste a alguien con quien trabajar!,te voy a a hacer mierda,0.4133,11.07,0.06,0.4,88.46,0.02
+220,"438,440",Dejaste de tener sexo conmigo,debe ser asesinado,0.3885,75.61,0.07,0.09,22.94,1.27
+221,"440,442",el último año. ¡Yo nunca te engañaré!,Lo que sea pero aléjate,0.4016,96.92,0.09,0.0,2.81,0.18
+222,"442,444",Esso fu ingagnarmi!,estupido,0.4189,41.72,0.01,0.0,0.02,58.25
+223,"444,446",¡Pero hay tanto que pude hacer!,te voy a sacar al concha de tu madre,0.3563,84.89,0.08,0.16,0.35,14.53
+224,"446,448",E' un direttore! Mi spegne!,te daré un tiro,0.4943,98.24,0.18,0.0,0.66,0.91
+225,"448,450",de la nada y de pronto apareció en la portada.,Esto no puede estar pasando,0.3841,36.07,0.27,0.02,0.07,63.58
+226,"450,452","The time out, New York!",me quitaré la vida,0.7477,97.7,0.47,0.04,0.43,1.36
+227,"452,454",Estaba en la cima y quería acostarme con todos.,Lo que sea pero aléjate,0.3766,75.28,2.7,0.16,15.46,6.39
+228,"454,456","y no lo hice, y te amaba y no quería perderte.",hijo de tu perra madre ,0.3504,82.06,13.47,1.13,3.02,0.33
+229,"456,458",,,,68.03,0.03,0.0,31.93,0.01
+230,"458,460",y no quería perder eso también.,Esto no puede estar pasando,0.3205,94.74,0.1,0.0,0.15,5.02
+231,"460,462",y al final lo hice.,Solo quiero que esto termine,0.3640,82.93,0.01,0.35,16.6,0.11
+232,"462,464","¿Por qué días tantos, tan raros?",Hablaremos después ¿sí?,0.3967,69.65,0.47,0.02,0.39,29.47
+233,"464,466",¡Rápido! ¡Yo ni siquiera quería casarme!,te voy a sacar al concha de tu madre,0.4593,63.8,8.02,1.05,6.67,20.45
+234,"466,468",Твою мать!,te voy a maltratar,0.5653,35.12,0.0,5.1,59.61,0.16
+235,"468,470",¡Hay tantas cosas que no hice!,te vas a la mierda,0.3990,93.68,0.02,0.01,0.47,5.82
+236,"470,472",¡Gracias por eso!,Por favor para,0.3408,95.2,0.01,0.02,2.67,2.11
+237,"472,474",¡Es un placer! ¡No puedo creer que de verdad!,te vas a la mierda,0.3715,65.41,0.18,0.35,27.91,6.15
+238,"474,476",¡Quiero conocerte para siempre!,te voy a sacar al concha de tu madre,0.3546,0.08,0.01,0.0,0.0,99.92
+239,"476,478",¡Eres una maldita demente!,te voy a maltratar,0.3050,90.94,0.15,0.02,2.68,6.2
+240,"478,480",¡Y además estás!,Por favor ya no más,0.4177,94.7,0.01,0.1,1.42,3.77
+241,"480,482",¡Ganando! ¡Jesús!,te mataré,0.4531,99.09,0.0,0.01,0.28,0.62
+242,"482,484",¡Es una broma!,te voy a sacar al concha de tu madre,0.3882,95.79,0.01,0.0,0.0,4.19
+243,"484,486",यो किडिया का सार में!,No haré nada solo para,0.6627,85.24,0.02,0.0,0.03,14.7
+244,"486,488",¡Yo ya perdí!,hijo de la perra,0.3527,95.61,0.01,0.0,0.01,4.37
+245,"488,490",¡No me amabas tanto como yo te amaba!,te voy a sacar al concha de tu madre,0.4543,98.53,0.01,0.0,0.02,1.44
+246,"490,492",,,,0.71,0.0,93.43,5.85,0.02
+247,"492,494",¿Eso qué tiene que ver con Los Ángeles?,¿Por qué me haces esto?,0.4402,73.54,0.01,0.18,26.26,0.0
+248,"494,496",Thank you for watching.,Tengo miedo,0.7773,0.51,0.0,33.23,66.26,0.0
+249,"496,498",¿Qué? ¿Estás tan...?,¿Por qué me haces esto?,0.4237,99.74,0.01,0.0,0.02,0.24
+250,"498,500",¡Inmerso en tu propio egoísmo!,voy a asesinarte,0.5014,99.83,0.0,0.0,0.14,0.02
+251,"500,502",¡No! ¡Que ya ni siquiera puedes identificar!,Eres quien está mal aquí,0.4364,99.9,0.01,0.0,0.01,0.08
+252,"502,504",como egoísmo.,debe ser asesinado,0.4962,92.1,0.01,0.03,0.01,7.85
+253,"504,506",¡Eres tan hijo de puta!,hijo de puta,0.1424,18.09,0.07,0.0,0.01,81.83
+254,"506,508",Cada día me despierto y espero que...,No voy a dejar que me destruyas,0.2394,95.44,0.01,0.0,0.48,4.06
+255,"508,510",Sejam mortos! Mortos!,eres una basura,0.4633,99.02,0.04,0.0,0.38,0.56
+256,"510,512",¡Pudiera garantizar que la gente estuviera bien!,eres una prostituta,0.4443,99.57,0.0,0.0,0.41,0.03
+257,"512,514",¡Desearía que enfermaras,Eres quien está mal aquí,0.4046,47.96,0.0,0.18,51.83,0.03
+258,"514,516",te atropellaron en auto y murieras,atorrante,0.4385,93.53,0.03,0.03,0.71,5.7
+259,"516,518",안녕!,hoyo,0.7115,17.8,0.0,50.14,31.92,0.13
+260,"518,520",,,,6.64,0.0,22.63,70.71,0.01
+261,"520,522",Hmm.,gay,0.7300,96.52,0.0,0.23,3.24,0.01
+262,"522,524",,,,64.25,0.0,0.04,35.7,0.0
+263,"524,526",,,,1.27,2.62,95.83,0.26,0.01
+264,"526,528",Thank you for watching!,No quiero problemas,0.7926,97.66,0.05,1.1,0.89,0.3
+265,"528,530",I'm so sorry. I'm so sorry. I'm so sorry. ,imbecil,0.7824,99.9,0.0,0.0,0.1,0.0
+266,"530,532",FUS RO DAH!,nos drogaremos,0.6704,51.49,0.0,24.96,23.53,0.02
+267,"532,534",Thank you. Peace.,No quiero problemas,0.7816,95.53,0.03,0.1,4.32,0.02
+268,"534,536",oh,gay,0.7491,99.73,0.0,0.02,0.23,0.01
+269,"536,538",ㅆ노무ㅅ끼야!!!,hijo de la perra,0.7199,75.55,0.02,0.03,0.09,24.31
+270,"538,540","Alright, bye.",Tengo miedo,0.7717,99.62,0.0,0.03,0.35,0.0

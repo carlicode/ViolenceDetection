@@ -3,7 +3,7 @@ from chromadb.utils import embedding_functions
 from sentence_transformers import SentenceTransformer
 
 # Configuración global para ChromaDB
-CHROMA_PATH = '/Users/carli.code/Desktop/tesis/violence-classification-interface/data_embeddings'
+CHROMA_PATH = '/data_embeddings'
 COLLECTION_NAME = 'violence_embeddings_DB'
 MODEL_NAME = "all-mpnet-base-v2"
 

@@ -8,7 +8,7 @@ from modules.chroma_query import load_chroma_db, query_chroma_db
 from modules.audio_prediction import load_audio_model, split_audio, predict_episode
 
 # Configuración del directorio para guardar el histórico
-HISTORIC_DIR = '/Users/carli.code/Desktop/ViolenceDetection/histórico'
+HISTORIC_DIR = '/histórico'
 os.makedirs(HISTORIC_DIR, exist_ok=True)
 
 # Etiquetas para las predicciones
@@ -16,14 +16,14 @@ labels = ["crying", "glass_breaking", "gun_shot", "people_talking", "screams"]
 
 # Opciones de modelos disponibles
 models = {
-    "Audios originales con 20 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset_20.h5",
-    "Audios originales con 30 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset_30.h5",
-    "Audios originales con 40 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset_40.h5",
-    "Audios originales con 100 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/original_dataset_100.h5",
-    "Gaussian Noise con 20 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian noise_20.h5",
-    "Gaussian Noise con 30 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian noise_30.h5",
-    "Gaussian Noise con 40 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian noise_40.h5",
-    "Gaussian Noise con 100 epochs": "/Users/carli.code/Desktop/ViolenceDetection/models/gaussian_noise_100.h5"
+    "Audios originales con 20 epochs": "/modelsoriginal_dataset_20.h5",
+    "Audios originales con 30 epochs": "/modelsoriginal_dataset_30.h5",
+    "Audios originales con 40 epochs": "/modelsoriginal_dataset_40.h5",
+    "Audios originales con 100 epochs": "/modelsoriginal_dataset_100.h5",
+    "Gaussian Noise con 20 epochs": "/modelsgaussian noise_20.h5",
+    "Gaussian Noise con 30 epochs": "/modelsgaussian noise_30.h5",
+    "Gaussian Noise con 40 epochs": "/modelsgaussian noise_40.h5",
+    "Gaussian Noise con 100 epochs": "/models/gaussian_noise_100.h5"
 }
 
 # Cargar la base vectorial de ChromaDB

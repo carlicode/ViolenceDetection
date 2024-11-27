@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from modules.violence_grade import process_violence_data, predict_violence_evolution
 
 # Configuración del directorio de histórico
-HISTORIC_DIR = '/Users/carli.code/Desktop/ViolenceDetection/histórico'
+HISTORIC_DIR = '/histórico'
 
 # Pesos para las etiquetas
 LABEL_WEIGHTS = {
